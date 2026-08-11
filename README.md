@@ -16,7 +16,7 @@
 
 ### 3. Interactive Geospatial Map (Mapbox)
 > Real-time property visualization across Dublin with interactive map markers.
-![Interactive Map Selection](./screenshots/scr3.png){width=500px}
+<img src="./screenshots/scr3.png" alt="Interactive Map Selection" width="500" />
 
 ### 4. End-User Saved Searches (MongoDB)
 > Authenticated standard user dashboard showing saved custom search queries stored in MongoDB.
