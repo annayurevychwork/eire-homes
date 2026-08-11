@@ -1,0 +1,39 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Agency {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  phone     String
+  logo      String?
+  role      String   @default("USER")
+  properties Property[]
+  createdAt DateTime   @default(now())
+}
+
+model Property {
+  id          String   @id @default(uuid())
+  title       String
+  address     String
+  price       Float
+  bedrooms    Int
+  bathrooms   Int
+  sqm         Float
+  ber         String
+  type        String
+  latitude    Float
+  longitude   Float
+  images      String[]
+  
+  agencyId    String
+  agency      Agency   @relation(fields: [agencyId], references: [id], onDelete: Cascade)
+  
+  createdAt   DateTime @default(now())
+}

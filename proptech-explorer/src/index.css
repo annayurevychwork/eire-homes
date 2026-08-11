@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ber-A { background-color: #009640; color: white; }
+.ber-B { background-color: #52B153; color: white; }
+.ber-C { background-color: #C3D52F; color: black; }
+.ber-D { background-color: #F8E71C; color: black; }
+.ber-E { background-color: #F8B415; color: black; }
+.ber-F { background-color: #F26F21; color: white; }
+.ber-G { background-color: #E2001A; color: white; }
