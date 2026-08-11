@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { fetchProperties } from './api/properties';
 import { saveSearch, fetchSavedSearches } from './api/auth';
@@ -8,7 +8,7 @@ import { Map } from './components/Map';
 import { AuthModal } from './components/AuthModal';
 import { UploadPropertyModal } from './components/UploadPropertyModal';
 import type { FilterState } from './types';
-import { Building2, Loader2, BookmarkPlus, LogIn, LogOut, User, ChevronLeft, ChevronRight, UploadCloud, ShieldAlert } from 'lucide-react';
+import { Building2, Loader2, BookmarkPlus, LogIn, LogOut, User, ChevronLeft, ChevronRight } from 'lucide-react';
 
 function App() {
   const [filters, setFilters] = useState<FilterState>({

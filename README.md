@@ -4,6 +4,37 @@
 
 ---
 
+## 🔗 Live Demo
+You can test the live application here:
+- 🌍 **Frontend App (Vercel):** [Open Client App](https://your-vercel-app-url.vercel.app)
+- ⚙️ **Backend API (Render):** [Check REST API Service](https://your-render-backend-url.onrender.com)
+
+---
+
+## 📸 App Showcase & Functionality
+
+### 1. Main Dashboard Overview
+> General view of the application featuring the property catalog grid and interactive geospatial map.
+![Main Page Overview](./screenshots/scr1.png)
+
+### 2. Advanced Filtering System
+> Server-side filtering by price range, minimum bedrooms, and BER energy ratings.
+![Applied Filters](./screenshots/scr2.png)
+
+### 3. Interactive Geospatial Map (Mapbox)
+> Real-time property visualization across Dublin with interactive map markers.
+![Interactive Map Selection](./screenshots/scr3.png)
+
+### 4. End-User Saved Searches (MongoDB)
+> Authenticated standard user dashboard showing saved custom search queries stored in MongoDB.
+![User Saved Searches](./screenshots/scr4.png)
+
+### 5. Administrator Control Panel (RBAC & Media Upload)
+> Admin view demonstrating role-based access control, photo management tools, and image carousels.
+![Admin Panel & Media Upload](./screenshots/scr5.png)
+
+---
+
 ## 🚀 Key Features & Functionality
 
 1. Server-Side Filtering & Pagination

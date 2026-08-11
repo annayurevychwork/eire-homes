@@ -8,12 +8,9 @@ export interface Property {
   bedrooms: number;
   bathrooms: number;
   sqm: number;
-  ber: BER_Rating;
-  type: 'Apartment' | 'House' | 'Studio';
-  coordinates: {
-    longitude: number;
-    latitude: number;
-  };
+  ber: string;
+  latitude: number;
+  longitude: number;
   images: string[];
 }
 
