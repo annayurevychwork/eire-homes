@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://eire-homes.onrender.com';
+const API_URL = 'http://localhost:4000';
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem('token');
